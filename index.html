@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Fira+Sans&family=Karla:wght@300;400;500;700&family=Open+Sans:wght@300&family=Rubik:wght@400;500;600;700&family=Saira+Semi+Condensed:wght@100&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="script.js" defer></script>
+  <style>
+    body {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      font-family: 'Barlow Semi Condensed', sans-serif;
+      background-color: #7FB5FF;
+    }
+
+    *{
+      border: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Math Solver</h1>
+  <form id="equation-form">
+    <input id="equation">
+    <button type="submit">Solve</button>
+  </form>
+  <div class="example">Example: 2 * 2 / (8 / 4 + 1)^2 = 0.4444444444444444</div>
+  <div id="results"></div>
+  <img src="./img.jpeg"/>
+</body>
+</html>
